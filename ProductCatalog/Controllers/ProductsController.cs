@@ -1,4 +1,3 @@
-using System;
 using Microsoft.AspNetCore.Mvc;
 using ProductCatalog.Models;
 using ProductCatalog.Repositories;

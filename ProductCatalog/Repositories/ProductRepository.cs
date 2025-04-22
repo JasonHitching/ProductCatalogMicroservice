@@ -5,8 +5,8 @@ namespace ProductCatalog.Repositories;
 
 public class ProductRepository : IProductRepository
 {
-    private static readonly List<Product> Products = new()
-    {
+    private static readonly List<Product> Products =
+    [
         new Product
         {
             Id = Guid.NewGuid(),
@@ -25,7 +25,7 @@ public class ProductRepository : IProductRepository
             StockQuantity = 50,
             Category = "Books"
         }
-    };
+    ];
 
     /// <summary>
     /// Fetch all existing products
